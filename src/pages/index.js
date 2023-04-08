@@ -3,29 +3,29 @@ import React from 'react'
 import Head from 'next/head'
 import projectStyles from '../styles/style.module.css'
 import styles from '../styles/style.module.css'
-import {MdCall} from 'react-icons/md'
-import {GoLocation} from 'react-icons/go'
-import {HiOutlineMail} from 'react-icons/hi'
-import {BsInstagram} from 'react-icons/bs'
-import {GrFacebook} from 'react-icons/gr'
-import {AiOutlineCalendar} from 'react-icons/ai'
-import {AiFillLinkedin} from 'react-icons/ai'
-import {AiOutlineStock} from 'react-icons/ai'
-import {ImTwitter} from 'react-icons/im'
-import {CiSearch} from 'react-icons/ci'
-import {CgProfile} from 'react-icons/cg'
+import { MdCall } from 'react-icons/md'
+import { GoLocation } from 'react-icons/go'
+import { HiOutlineMail } from 'react-icons/hi'
+import { BsInstagram } from 'react-icons/bs'
+import { GrFacebook } from 'react-icons/gr'
+import { AiOutlineCalendar } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineStock } from 'react-icons/ai'
+import { ImTwitter } from 'react-icons/im'
+import { CiSearch } from 'react-icons/ci'
+import { CgProfile } from 'react-icons/cg'
 
 const LandingPage = () => {
   return (
-      <div>
-    {/* <Head>
+    <div>
+      {/* <Head>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </Head> */}
       <div className={styles['landing-page']}>
-      {/* <div>
+        {/* <div>
       <img className="mx-7 md:mx-14  h-12 w-auto" src='/icon1.png' width={25} height={25} alt="hand"/>
 </div> */}
-     
+
         <div className={styles['browsecourse']}>
           <div className={styles['frame38']}>
             <span className={styles['text']}>
@@ -35,8 +35,8 @@ const LandingPage = () => {
         </div>
         <span className={styles['text002']}>
           <span className={styles['text003']}>
-          {/* <p className='font-Aeonik'> */}
-             Quick access to
+            {/* <p className='font-Aeonik'> */}
+            Quick access to
             {/* </p> */}
             <span
               dangerouslySetInnerHTML={{
@@ -50,7 +50,7 @@ const LandingPage = () => {
             <span className={styles['text006']}>
               <span>Online Community</span>
             </span>
-        
+
             {/* <span className={styles['text008']}>
               <span>Religious Resources</span>
             </span>
@@ -78,7 +78,7 @@ const LandingPage = () => {
               <button type='button' className=''>Join the Community</button>
             </span>
           </div> */}
-        
+
         {/* need to be addressed */}
         {/* beginning of footer */}
         <div className={styles['footer']}>
@@ -94,7 +94,7 @@ const LandingPage = () => {
             <div className={styles['group27078']}>
               <span className={styles['text016']}>
                 <span>
-                  <span className='right-30 text-white'> 
+                  <span className='right-30 text-white'>
                     © 2023 HOME OF VICTORY. All rights reserved / Terms of
                     Service
                   </span>
@@ -103,10 +103,10 @@ const LandingPage = () => {
                 </span>
               </span>
             </div>
-          
+
             <span className={styles['text021']}>
               <span>
-                <span>Powered By  
+                <span>Powered By
                   <a href='https://megaexe.com' className='no-underline text-white'> Megaexe Global</a></span>
                 <br></br>
                 <span></span>
@@ -206,7 +206,7 @@ const LandingPage = () => {
             <div className={styles['frame27245']}>
               <div className={styles['frame27244']}>
                 <AiOutlineCalendar
-                 
+
                   className={styles['calendar1']}
                 />
                 <span
@@ -260,167 +260,167 @@ const LandingPage = () => {
 
         {/* end of footer */}
 
-            <div className='grid grid-col-1 md:flex-row'>
-        <div className={styles['div']}>
-          <div className={styles['div01']}>
-            <AiOutlineStock
-              alt="svg9214"
-              src="/playground_assets/svg9214-idoh.svg"
-              className={`styles['svg'] mb-10 text-white` }
+        <div className='grid grid-col-1 md:flex-row'>
+          <div className={styles['div']}>
+            <div className={styles['div01']}>
+              <AiOutlineStock
+                alt="svg9214"
+                src="/playground_assets/svg9214-idoh.svg"
+                className={`styles['svg'] mb-10 text-white`}
               />
-            <div className={styles['div02']}>
-              <span className={styles['text054']}>
-                <span>Experience it anywhere</span>
-              </span>
-              <span className={styles['text056']}>
-                Browse through Devotions, Prayers, Novenas, Daily reflections,
-                testimonies and bible quotes all in one place from your PC,
-                mobile and Tablet.
-              </span>
-            </div>
-            <div className={styles['frame40035']}>
-              <span className={styles['text057']}>
-                <span className='inline '>View Programs</span> →
-              </span>
-             
-            </div>
-          </div>
-          <div className={styles['div03']}>
-            <AiOutlineStock
-              alt="svg9413"
-              src="/playground_assets/svg9413-owfu.svg"
-              className={`styles['svg'] mb-10 text-white` }
-              
-              />
-            <div className={styles['div04']}>
-              <span className={styles['text059']}>
-                <span>Make it your life</span>
-              </span>
-              <span className={styles['text061']}>
-                <span>
-                  Home of Victory connects Christians and Catholics from around
-                  the world to facilitate religious discussions and support.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                    />
+              <div className={styles['div02']}>
+                <span className={styles['text054']}>
+                  <span>Experience it anywhere</span>
                 </span>
-              </span>
-            </div>
-            <div className={styles['frame40036']}>
-              <span className={styles['text063']}>
-                <span>Join the community </span>→
-              </span>
-             
-            </div>
-          </div>
-          <div className={styles['div05']}>
-            <AiOutlineStock
-              
-              className={`styles['svg'] mb-10 text-white` }
-              
-              />
-            <div className={styles['div06']}>
-              <span className={styles['text065']}>
-                <span>You are not alone</span>
-              </span>
-              <span className={styles['text067']}>
-                <span>
-                  Join the community of like minded individuals, who have deep
-                  affection for Jesus Christ and the Blessed Virgin Mary.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                    />
+                <span className={styles['text056']}>
+                  Browse through Devotions, Prayers, Novenas, Daily reflections,
+                  testimonies and bible quotes all in one place from your PC,
+                  mobile and Tablet.
                 </span>
-              </span>
+              </div>
+              <div className={styles['frame40035']}>
+                <span className={styles['text057']}>
+                  <span className='inline '>View Programs</span> →
+                </span>
+
+              </div>
             </div>
-            <div className={styles['frame40037']}>
-              <span className={styles['text069']}>
-                <span>Join the community</span> →
-              </span>
-            
+            <div className={styles['div03']}>
+              <AiOutlineStock
+                alt="svg9413"
+                src="/playground_assets/svg9413-owfu.svg"
+                className={`styles['svg'] mb-10 text-white`}
+
+              />
+              <div className={styles['div04']}>
+                <span className={styles['text059']}>
+                  <span>Make it your life</span>
+                </span>
+                <span className={styles['text061']}>
+                  <span>
+                    Home of Victory connects Christians and Catholics from around
+                    the world to facilitate religious discussions and support.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                </span>
+              </div>
+              <div className={styles['frame40036']}>
+                <span className={styles['text063']}>
+                  <span>Join the community </span>→
+                </span>
+
+              </div>
+            </div>
+            <div className={styles['div05']}>
+              <AiOutlineStock
+
+                className={`styles['svg'] mb-10 text-white`}
+
+              />
+              <div className={styles['div06']}>
+                <span className={styles['text065']}>
+                  <span>You are not alone</span>
+                </span>
+                <span className={styles['text067']}>
+                  <span>
+                    Join the community of like minded individuals, who have deep
+                    affection for Jesus Christ and the Blessed Virgin Mary.
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html: ' ',
+                      }}
+                    />
+                  </span>
+                </span>
+              </div>
+              <div className={styles['frame40037']}>
+                <span className={styles['text069']}>
+                  <span>Join the community</span> →
+                </span>
+
+              </div>
             </div>
           </div>
         </div>
-                    </div>
         <span className={styles['text071']}>
           <span>
             Light at the end of the tunnel...
-           
+
           </span>
         </span>
-            <div className='flex h-full flex-col  md:flex-row'>
-        <div className={styles['group27070']}>
-          <div className={styles['frame18']}>
-            <img
-              // alt="Vector1121"
-              src="/starr.png"
-              className={styles['vector']}
-            />
-          </div>
-        <div>
+        <div className='flex h-full flex-col  md:flex-row'>
+          <div className={styles['group27070']}>
+            <div className={styles['frame18']}>
+              <img
+                // alt="Vector1121"
+                src="/starr.png"
+                className={styles['vector']}
+              />
+            </div>
+            <div>
 
-          {/* <img 
+              {/* <img 
           src='/sunn.png'
           width={90}
           className='right-2'
           /> */}
-      
-          <img
-            // alt="Vector1121"
-            src="/man.png"
-            className={styles['vector01']}
-            />
+
+              <img
+                // alt="Vector1121"
+                src="/man.png"
+                className={styles['vector01']}
+              />
             </div>
-          {/* <img
+            {/* <img
           src='/starr.png'
           className='mt-100'
           /> */}
-        </div>
+          </div>
           <div>
 
-        <span className={styles['text073']}>
-          <span >Values</span>
-        </span>
-        <span className={styles['text075']}>
-          <span>
-            To live a life of holiness, consecration, and separation, and to
-            teach with our lifestyles devoid of worldly attraction.
-          </span>
-        </span>
-     
-        <span className={styles['text077']}>
-          <span>Vision Statement  </span>
-        </span>
-       
-        <span className={styles['text079']}>
-          <span>
-            To populate the kingdom of God starting from the earthly realm and
-            ensure fruits are geared towards repentance, redemption, and
-            salvation.
-          </span>
-        </span>
-     
-        <span className={styles['text081']}>
-          <span>Mission Statement  </span>
-        </span>
-        {/* here */}
-        {/* <img
+            <span className={styles['text073']}>
+              <span >Values</span>
+            </span>
+            <span className={styles['text075']}>
+              <span>
+                To live a life of holiness, consecration, and separation, and to
+                teach with our lifestyles devoid of worldly attraction.
+              </span>
+            </span>
+
+            <span className={styles['text077']}>
+              <span>Vision Statement  </span>
+            </span>
+
+            <span className={styles['text079']}>
+              <span>
+                To populate the kingdom of God starting from the earthly realm and
+                ensure fruits are geared towards repentance, redemption, and
+                salvation.
+              </span>
+            </span>
+
+            <span className={styles['text081']}>
+              <span>Mission Statement  </span>
+            </span>
+            {/* here */}
+            {/* <img
           alt="fluenttargetarrow16filled2221"
           src="/"
           className={styles['fluenttargetarrow16filled']}
         /> */}
-        <span className={styles['text083']}>
-          <span>
-            To spread the message of the Bible to lost souls, to preach the good
-            news, and spread the love of Christ.
-          </span>
-        </span>
+            <span className={styles['text083']}>
+              <span>
+                To spread the message of the Bible to lost souls, to preach the good
+                news, and spread the love of Christ.
+              </span>
+            </span>
 
-        </div>
+          </div>
         </div>
         {/* here */}
         {/* <img
@@ -588,9 +588,9 @@ const LandingPage = () => {
         <div className={styles['group1000004610']}>
           <div className={styles['group1000004609']}>
             <div className={styles['div19']}>
-              
-              
-              
+
+
+
               <div className={styles['div20']}>
                 <div className={styles['a']}>
                   <div className={styles['div21']}>
@@ -607,7 +607,7 @@ const LandingPage = () => {
                       src="/dolc.png"
                       className={styles['vectord43edfcbb0svg']}
                     />
-                  <div></div>
+                    <div></div>
 
                   </div>
                   <div className={styles['div23']}>
@@ -618,7 +618,7 @@ const LandingPage = () => {
                             alt="hand3769"
                             src="/rosary.png"
                           />
-                        
+
                         </div>
                       </div>
                     </div>
@@ -636,7 +636,7 @@ const LandingPage = () => {
 
 
 
-              
+
               <div className={styles['div26']}>
                 <div className={styles['a1']}>
                   <div className={styles['div27']}>
@@ -658,16 +658,16 @@ const LandingPage = () => {
                     <div className={styles['div30']}>
                       <div className={styles['frame400601']}>
                         <div className={styles['howlogosingle1']}>
-                          
-                             <img
-                              alt="Rectangle163769"
-                              src="/rosary.png"
-                              // className={styles['rectangle161']}
-                            />
-                          </div> 
+
+                          <img
+                            alt="Rectangle163769"
+                            src="/rosary.png"
+                          // className={styles['rectangle161']}
+                          />
                         </div>
                       </div>
-              
+                    </div>
+
                     <div className={styles['div31']}>
                       <span className={styles['text124']}>
                         <span>Home of victory Admin</span>
@@ -703,14 +703,14 @@ const LandingPage = () => {
                     <div className={styles['div36']}>
                       <div className={styles['frame400602']}>
                         <div className={styles['howlogosingle2']}>
-                        
-                             
-                            <img
-                              alt="Rectangle163769"
-                              src="/rosary.png"
-                              // className={styles['rectangle162']}
-                            />
-                          
+
+
+                          <img
+                            alt="Rectangle163769"
+                            src="/rosary.png"
+                          // className={styles['rectangle162']}
+                          />
+
                         </div>
                       </div>
                     </div>
@@ -746,16 +746,16 @@ const LandingPage = () => {
                     <div className={styles['div42']}>
                       <div className={styles['frame400603']}>
                         <div className={styles['howlogosingle3']}>
-                         
-                           
-                            <img
-                              alt="Rectangle163769"
-                              src="/rosary.png"
-                              // className={styles['rectangle163']}
-                            />
-                          </div>
+
+
+                          <img
+                            alt="Rectangle163769"
+                            src="/rosary.png"
+                          // className={styles['rectangle163']}
+                          />
                         </div>
-                     
+                      </div>
+
                     </div>
                     <div className={styles['div43']}>
                       <span className={styles['text140']}>
@@ -775,8 +775,8 @@ const LandingPage = () => {
                       <span className='uppercase'>design</span>
                     </span>
                     <span className={styles['text146']}>
-                      <span>Days Program with the <br/> 
-                      Holy Spirit of God</span>
+                      <span>Days Program with the <br />
+                        Holy Spirit of God</span>
                     </span>
                   </div>
                   <div className={styles['div46']}>
@@ -790,15 +790,15 @@ const LandingPage = () => {
                     <div className={styles['div48']}>
                       <div className={styles['frame400604']}>
                         <div className={styles['howlogosingle4']}>
-                       
-                          
-                            <img
-                              alt="Rectangle163769"
-                              src="/rosary.png"
-                              // className={styles['rectangle164']}
-                            />
-                          </div>
-                  
+
+
+                          <img
+                            alt="Rectangle163769"
+                            src="/rosary.png"
+                          // className={styles['rectangle164']}
+                          />
+                        </div>
+
                       </div>
                     </div>
                     <div className={styles['div49']}>
@@ -833,14 +833,14 @@ const LandingPage = () => {
                     <div className={styles['div54']}>
                       <div className={styles['frame400605']}>
                         <div className={styles['howlogosingle5']}>
-                        
-                          
-                            <img
-                              alt="Rectangle163769"
-                              src="/rosary.png"
-                              // className={styles['rectangle165']}
-                            />
-                     
+
+
+                          <img
+                            alt="Rectangle163769"
+                            src="/rosary.png"
+                          // className={styles['rectangle165']}
+                          />
+
                         </div>
                       </div>
                     </div>
@@ -861,13 +861,13 @@ const LandingPage = () => {
             <span className={styles['text160']}>
               <p className='ml-14'>
                 Latest event and news
-                </p>
-                </span>
+              </p>
+            </span>
             <div className={styles['div56']}>
               <span className={styles['text161']}>
                 <span>See all New</span>  →
               </span>
-            
+
             </div>
           </div>
         </div>
@@ -890,49 +890,49 @@ const LandingPage = () => {
           <div className={styles['group27065']}>
             <div className={styles['group19']}>
               <div>
-      <img className="mx-7 md:mx-16 mb-4 h-12 w-auto" src='/icon1.png' width={25} height={25} alt="hand"/>
-      </div>
+                <img className="mx-7 md:mx-16 mb-4 h-12 w-auto" src='/icon1.png' width={25} height={25} alt="hand" />
+              </div>
             </div>
           </div>
           <div className={styles['frame40055']}>
             {/* search bar */}
-              <div class="relative mt-2 text-center ml-7 justify-center items-center">
-                     <div class="mb-3 xl:w-96">
-                      <div class="relative flex pl-10 flex-row w-90  h-11 border border-solid border-neutral-300 bg-slate-200 rounded-full px-3 py-1.5 text-base font-normal text-neutral-700 outline-none transition duration-300 ease-in-out focus:border-primary focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:text-neutral-200 dark:placeholder:text-neutral-200">
-                     <input
-                       type="search"
-                       class="relative m-0  border-slate-200  flex-auto  border border-solid  bg-slate-200 rounded-full px-3 py-1.5 text-base font-normal text- outline-none transition duration-300 ease-in-out focus:border-black  focus:text-black   dark:text-black dark:placeholder:text-black"   placeholder="Search Items..."
-                       />
-                     <button
-                      class="relative z-[4] flex items-center  bg-primary  font-large uppercase leading-tight  bg-blue-900 text-white w-10 rounded-full border shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
-                      type="button"
-                      data-te-ripple-init
-                      data-te-ripple-color="light">
-                     <CiSearch className='ml-3 rounded-full'/>
-                            </button>
-                   </div>
-                 </div>
-               </div> 
-        
+            <div class="relative mt-2 text-center ml-7 justify-center items-center">
+              <div class="mb-3 xl:w-96">
+                <div class="relative flex pl-10 flex-row w-90  h-11 border border-solid border-neutral-300 bg-slate-200 rounded-full px-3 py-1.5 text-base font-normal text-neutral-700 outline-none transition duration-300 ease-in-out focus:border-primary focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:text-neutral-200 dark:placeholder:text-neutral-200">
+                  <input
+                    type="search"
+                    class="relative m-0  border-slate-200  flex-auto  border border-solid  bg-slate-200 rounded-full px-3 py-1.5 text-base font-normal text- outline-none transition duration-300 ease-in-out focus:border-black  focus:text-black   dark:text-black dark:placeholder:text-black" placeholder="Search Items..."
+                  />
+                  <button
+                    class="relative z-[4] flex items-center  bg-primary  font-large uppercase leading-tight  bg-blue-900 text-white w-10 rounded-full border shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
+                    type="button"
+                    data-te-ripple-init
+                    data-te-ripple-color="light">
+                    <CiSearch className='ml-3 rounded-full' />
+                  </button>
+                </div>
+              </div>
+            </div>
+
             <div className={styles['frame40053']}>
               <div className={styles['nextnav']}>
                 <span className={styles['text165']}>
-                  <a href=' '  className='no-underline'>
-                  <p className='mx-20 text-slate-700 text-md font-semibold'>Events</p>
+                  <a href=' ' className='no-underline'>
+                    <p className='mx-20 text-slate-700 text-md font-semibold'>Events</p>
                   </a>
                 </span>
               </div>
               <span className={styles['text167']}>
                 <a href='' className='no-underline'>
-                <p className='no-underline text-slate-700 font-semibold '>Sign In</p>
+                  <p className='no-underline text-slate-700 font-semibold '>Sign In</p>
                 </a>
-                </span>
+              </span>
               <div className={styles['browsecourse1']}>
                 <div className=''>
                   <span className={styles['text168']}>
-                 <button type='button'  className='btn btn-primary bg-blue-950 w-40 relative mt-2.5 ml-10'> 
-                  Join the Community
-                 </button>
+                    <button type='button' className='btn btn-primary bg-blue-950 w-40 relative mt-2.5 ml-10'>
+                      Join the Community
+                    </button>
                   </span>
                 </div>
               </div>
@@ -947,7 +947,7 @@ const LandingPage = () => {
                       width={12}
                       height={12}
                       className={styles['ellipse217']}
-                      />
+                    />
                   </div>
                 </div>
                 {/* <img
@@ -956,7 +956,7 @@ const LandingPage = () => {
                   className={styles['chevrondown']}
                 /> */}
 
-                <select className='w-0 right-7  relative rounded-full'>
+                <select className='w-1 right-7  relative rounded-full'>
                   <option className='w-0 rounded-full'></option>
                   <option className='w-0 rounded-full'>account details</option>
                   <option className='w-0 rounded-full'>settings</option>
@@ -964,7 +964,7 @@ const LandingPage = () => {
                   <option>rev</option>
                 </select>
               </div>
-                {/* </div> */}
+              {/* </div> */}
             </div>
           </div>
         </div>
